@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 
 class Header extends React.Component {
     render() {
-        return <div><h1>React App - Issue 5</h1></div>
+        return <div><h1>{this.props.name}</h1></div>
+        
     }
 }
 
